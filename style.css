@@ -19,54 +19,56 @@ body{
     color: var(--text-color);
     text-align: center;
     padding: 1.5rem;
-    height: 6rem;
-    font-size: 5rem;
+    height: 5vh;
+    width:95vw;
+    font-size:xx-large;
     font-weight: bolder;
 }
 .choices{
     display: flex;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin: 2.5vw;
+    margin-top: 5vw;
     align-items: center;
-    gap: 4rem;
+    gap: 10vw;
     
 }
 .ch{
-    height:16rem;
-    width: 16rem;
+    height:25vw;
+    width: 25vw;
     border: var(--header-bg-color) 3px solid;
     border-radius: 8rem;
-    font-size: 3rem;
+    font-size: large;
     font-weight: 600;
     color: var(--text-color);
     background-color: var(--button-bg-color);
 }
 .score{
     display: flex;
-    padding: 2rem;
+    padding: 5vw;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10vw;
 }
 .score h3{
-    font-size: 2.5rem;
+    font-size: large;
     color:var(--text-color);
     border-radius: 1rem;
-    height: 5rem;
+    height: 15vw;
     width:fit-content;
     align-content: center;
 }
 .score button{
-    font-size: 2.5rem;
+    font-size: large;
     color:var(--text-color);
     background-color: var(--button-bg-color);
-    height: 4.5rem;
-    width: 5rem;
+    height: 8vw;
+    width: 8vw;
     border: black 3px solid;
     border-radius: 1rem;
 }
 .hero h3{
-    font-size: 3rem;
+    font-size:large;
     color:var(--text-color);
     text-align: center;
     width: auto;
@@ -74,7 +76,6 @@ body{
 }
 .hero{
     justify-items: center;
-    column-gap: 2rem;
 }
 .result{
     font-weight: 400;
@@ -82,14 +83,14 @@ body{
     color: antiquewhite;
     border: black 3px solid;
     border-radius: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5vh;
 }
     
 .reset{
-    font-size: 2.5rem;
+    font-size: large;
     background-color: var(--button-bg-color);
-    height: 4.5rem;
-    width: 10rem;
+    height: 4rem;
+    width: 8rem;
     border: black 3px solid;
     border-radius: 1rem;
 }
