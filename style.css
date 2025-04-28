@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    --text-color: #F6E9E9;
+    --button-bg-color: #E16428;
+    --main-bg-color: #272121;
+    --header-bg-color: #363333;
+    
+    --border-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-color:var(--main-bg-color) ;
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    background-color: var(--header-bg-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1.5rem;
+    height: 6rem;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 4rem;
+    
+}
+.ch{
+    height:16rem;
+    width: 16rem;
+    border: var(--header-bg-color) 3px solid;
+    border-radius: 8rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--button-bg-color);
+}
+.score{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.score h3{
+    font-size: 2.5rem;
+    color:var(--text-color);
+    border-radius: 1rem;
+    height: 5rem;
+    width:fit-content;
+    align-content: center;
+}
+.score button{
+    font-size: 2.5rem;
+    color:var(--text-color);
+    background-color: var(--button-bg-color);
+    height: 4.5rem;
+    width: 5rem;
+    border: black 3px solid;
+    border-radius: 1rem;
+}
+.hero h3{
+    font-size: 3rem;
+    color:var(--text-color);
+    text-align: center;
+    width: auto;
+    padding: 1rem;
+}
+.hero{
+    justify-items: center;
+    column-gap: 2rem;
+}
+.result{
+    font-weight: 400;
+    background-color: var(--button-bg-color);
+    color: antiquewhite;
+    border: black 3px solid;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+    
+.reset{
+    font-size: 2.5rem;
+    background-color: var(--button-bg-color);
+    height: 4.5rem;
+    width: 10rem;
+    border: black 3px solid;
+    border-radius: 1rem;
+}
